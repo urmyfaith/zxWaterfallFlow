@@ -1,0 +1,6 @@
+
+
+@interface YYViewController:UIViewController
+
+@end
+

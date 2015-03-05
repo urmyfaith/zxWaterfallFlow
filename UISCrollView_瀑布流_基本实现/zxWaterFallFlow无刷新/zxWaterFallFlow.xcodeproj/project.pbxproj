@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBCE72F91A92F399009490A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCE72F81A92F399009490A0 /* Foundation.framework */; };
+		FBCE72FB1A92F399009490A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCE72FA1A92F399009490A0 /* CoreGraphics.framework */; };
+		FBCE72FD1A92F399009490A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCE72FC1A92F399009490A0 /* UIKit.framework */; };
+		FBCE73031A92F399009490A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBCE73011A92F399009490A0 /* InfoPlist.strings */; };
+		FBCE73051A92F399009490A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE73041A92F399009490A0 /* main.m */; };
+		FBCE73091A92F399009490A0 /* ZXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE73081A92F399009490A0 /* ZXAppDelegate.m */; };
+		FBCE730C1A92F399009490A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCE730A1A92F399009490A0 /* Main.storyboard */; };
+		FBCE730F1A92F399009490A0 /* ZXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE730E1A92F399009490A0 /* ZXViewController.m */; };
+		FBCE73111A92F399009490A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCE73101A92F399009490A0 /* Images.xcassets */; };
+		FBCE73181A92F399009490A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCE73171A92F399009490A0 /* XCTest.framework */; };
+		FBCE73191A92F399009490A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCE72F81A92F399009490A0 /* Foundation.framework */; };
+		FBCE731A1A92F399009490A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCE72FC1A92F399009490A0 /* UIKit.framework */; };
+		FBCE73221A92F399009490A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBCE73201A92F399009490A0 /* InfoPlist.strings */; };
+		FBCE73241A92F399009490A0 /* zxWaterFallFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE73231A92F399009490A0 /* zxWaterFallFlowTests.m */; };
+		FBCE732F1A92F3E8009490A0 /* ZXWaterflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE732E1A92F3E8009490A0 /* ZXWaterflowView.m */; };
+		FBCE73321A92F4A9009490A0 /* ZXWaterflowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE73311A92F4A9009490A0 /* ZXWaterflowViewCell.m */; };
+		FBCE73351A93461D009490A0 /* UIColor+ZXRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE73341A93461D009490A0 /* UIColor+ZXRandomColor.m */; };
+		FBD1BB0D1A977E53006F2DA8 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = FBD1BB0C1A977E53006F2DA8 /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBCE731B1A92F399009490A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBCE72ED1A92F399009490A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBCE72F41A92F399009490A0;
+			remoteInfo = zxWaterFallFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBCE72F51A92F399009490A0 /* zxWaterFallFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zxWaterFallFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCE72F81A92F399009490A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBCE72FA1A92F399009490A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBCE72FC1A92F399009490A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBCE73001A92F399009490A0 /* zxWaterFallFlow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zxWaterFallFlow-Info.plist"; sourceTree = "<group>"; };
+		FBCE73021A92F399009490A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBCE73041A92F399009490A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBCE73061A92F399009490A0 /* zxWaterFallFlow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zxWaterFallFlow-Prefix.pch"; sourceTree = "<group>"; };
+		FBCE73071A92F399009490A0 /* ZXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAppDelegate.h; sourceTree = "<group>"; };
+		FBCE73081A92F399009490A0 /* ZXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAppDelegate.m; sourceTree = "<group>"; };
+		FBCE730B1A92F399009490A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBCE730D1A92F399009490A0 /* ZXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXViewController.h; sourceTree = "<group>"; };
+		FBCE730E1A92F399009490A0 /* ZXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXViewController.m; sourceTree = "<group>"; };
+		FBCE73101A92F399009490A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBCE73161A92F399009490A0 /* zxWaterFallFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zxWaterFallFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCE73171A92F399009490A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FBCE731F1A92F399009490A0 /* zxWaterFallFlowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zxWaterFallFlowTests-Info.plist"; sourceTree = "<group>"; };
+		FBCE73211A92F399009490A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBCE73231A92F399009490A0 /* zxWaterFallFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zxWaterFallFlowTests.m; sourceTree = "<group>"; };
+		FBCE732D1A92F3E8009490A0 /* ZXWaterflowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWaterflowView.h; sourceTree = "<group>"; };
+		FBCE732E1A92F3E8009490A0 /* ZXWaterflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWaterflowView.m; sourceTree = "<group>"; };
+		FBCE73301A92F4A9009490A0 /* ZXWaterflowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWaterflowViewCell.h; sourceTree = "<group>"; };
+		FBCE73311A92F4A9009490A0 /* ZXWaterflowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWaterflowViewCell.m; sourceTree = "<group>"; };
+		FBCE73331A93461D009490A0 /* UIColor+ZXRandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZXRandomColor.h"; sourceTree = "<group>"; };
+		FBCE73341A93461D009490A0 /* UIColor+ZXRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZXRandomColor.m"; sourceTree = "<group>"; };
+		FBD1BB0C1A977E53006F2DA8 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBCE72F21A92F399009490A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCE72FB1A92F399009490A0 /* CoreGraphics.framework in Frameworks */,
+				FBCE72FD1A92F399009490A0 /* UIKit.framework in Frameworks */,
+				FBCE72F91A92F399009490A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCE73131A92F399009490A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCE73181A92F399009490A0 /* XCTest.framework in Frameworks */,
+				FBCE731A1A92F399009490A0 /* UIKit.framework in Frameworks */,
+				FBCE73191A92F399009490A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBCE72EC1A92F399009490A0 = {
+			isa = PBXGroup;
+			children = (
+				FBCE72FE1A92F399009490A0 /* zxWaterFallFlow */,
+				FBCE731D1A92F399009490A0 /* zxWaterFallFlowTests */,
+				FBCE72F71A92F399009490A0 /* Frameworks */,
+				FBCE72F61A92F399009490A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBCE72F61A92F399009490A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE72F51A92F399009490A0 /* zxWaterFallFlow.app */,
+				FBCE73161A92F399009490A0 /* zxWaterFallFlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBCE72F71A92F399009490A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE72F81A92F399009490A0 /* Foundation.framework */,
+				FBCE72FA1A92F399009490A0 /* CoreGraphics.framework */,
+				FBCE72FC1A92F399009490A0 /* UIKit.framework */,
+				FBCE73171A92F399009490A0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBCE72FE1A92F399009490A0 /* zxWaterFallFlow */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE73071A92F399009490A0 /* ZXAppDelegate.h */,
+				FBCE73081A92F399009490A0 /* ZXAppDelegate.m */,
+				FBCE730A1A92F399009490A0 /* Main.storyboard */,
+				FBCE730D1A92F399009490A0 /* ZXViewController.h */,
+				FBCE730E1A92F399009490A0 /* ZXViewController.m */,
+				FBCE732D1A92F3E8009490A0 /* ZXWaterflowView.h */,
+				FBCE732E1A92F3E8009490A0 /* ZXWaterflowView.m */,
+				FBCE73301A92F4A9009490A0 /* ZXWaterflowViewCell.h */,
+				FBCE73311A92F4A9009490A0 /* ZXWaterflowViewCell.m */,
+				FBD1BB0C1A977E53006F2DA8 /* readme.md */,
+				FBCE73101A92F399009490A0 /* Images.xcassets */,
+				FBCE72FF1A92F399009490A0 /* Supporting Files */,
+				FBCE73331A93461D009490A0 /* UIColor+ZXRandomColor.h */,
+				FBCE73341A93461D009490A0 /* UIColor+ZXRandomColor.m */,
+			);
+			path = zxWaterFallFlow;
+			sourceTree = "<group>";
+		};
+		FBCE72FF1A92F399009490A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE73001A92F399009490A0 /* zxWaterFallFlow-Info.plist */,
+				FBCE73011A92F399009490A0 /* InfoPlist.strings */,
+				FBCE73041A92F399009490A0 /* main.m */,
+				FBCE73061A92F399009490A0 /* zxWaterFallFlow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBCE731D1A92F399009490A0 /* zxWaterFallFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE73231A92F399009490A0 /* zxWaterFallFlowTests.m */,
+				FBCE731E1A92F399009490A0 /* Supporting Files */,
+			);
+			path = zxWaterFallFlowTests;
+			sourceTree = "<group>";
+		};
+		FBCE731E1A92F399009490A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE731F1A92F399009490A0 /* zxWaterFallFlowTests-Info.plist */,
+				FBCE73201A92F399009490A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBCE72F41A92F399009490A0 /* zxWaterFallFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCE73271A92F399009490A0 /* Build configuration list for PBXNativeTarget "zxWaterFallFlow" */;
+			buildPhases = (
+				FBCE72F11A92F399009490A0 /* Sources */,
+				FBCE72F21A92F399009490A0 /* Frameworks */,
+				FBCE72F31A92F399009490A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zxWaterFallFlow;
+			productName = zxWaterFallFlow;
+			productReference = FBCE72F51A92F399009490A0 /* zxWaterFallFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBCE73151A92F399009490A0 /* zxWaterFallFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCE732A1A92F399009490A0 /* Build configuration list for PBXNativeTarget "zxWaterFallFlowTests" */;
+			buildPhases = (
+				FBCE73121A92F399009490A0 /* Sources */,
+				FBCE73131A92F399009490A0 /* Frameworks */,
+				FBCE73141A92F399009490A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBCE731C1A92F399009490A0 /* PBXTargetDependency */,
+			);
+			name = zxWaterFallFlowTests;
+			productName = zxWaterFallFlowTests;
+			productReference = FBCE73161A92F399009490A0 /* zxWaterFallFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBCE72ED1A92F399009490A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zx;
+				TargetAttributes = {
+					FBCE73151A92F399009490A0 = {
+						TestTargetID = FBCE72F41A92F399009490A0;
+					};
+				};
+			};
+			buildConfigurationList = FBCE72F01A92F399009490A0 /* Build configuration list for PBXProject "zxWaterFallFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBCE72EC1A92F399009490A0;
+			productRefGroup = FBCE72F61A92F399009490A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBCE72F41A92F399009490A0 /* zxWaterFallFlow */,
+				FBCE73151A92F399009490A0 /* zxWaterFallFlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBCE72F31A92F399009490A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCE73111A92F399009490A0 /* Images.xcassets in Resources */,
+				FBCE73031A92F399009490A0 /* InfoPlist.strings in Resources */,
+				FBD1BB0D1A977E53006F2DA8 /* readme.md in Resources */,
+				FBCE730C1A92F399009490A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCE73141A92F399009490A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCE73221A92F399009490A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBCE72F11A92F399009490A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCE732F1A92F3E8009490A0 /* ZXWaterflowView.m in Sources */,
+				FBCE73091A92F399009490A0 /* ZXAppDelegate.m in Sources */,
+				FBCE73351A93461D009490A0 /* UIColor+ZXRandomColor.m in Sources */,
+				FBCE73051A92F399009490A0 /* main.m in Sources */,
+				FBCE73321A92F4A9009490A0 /* ZXWaterflowViewCell.m in Sources */,
+				FBCE730F1A92F399009490A0 /* ZXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCE73121A92F399009490A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCE73241A92F399009490A0 /* zxWaterFallFlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBCE731C1A92F399009490A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBCE72F41A92F399009490A0 /* zxWaterFallFlow */;
+			targetProxy = FBCE731B1A92F399009490A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBCE73011A92F399009490A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCE73021A92F399009490A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBCE730A1A92F399009490A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCE730B1A92F399009490A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBCE73201A92F399009490A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCE73211A92F399009490A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBCE73251A92F399009490A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBCE73261A92F399009490A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBCE73281A92F399009490A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zxWaterFallFlow/zxWaterFallFlow-Prefix.pch";
+				INFOPLIST_FILE = "zxWaterFallFlow/zxWaterFallFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBCE73291A92F399009490A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zxWaterFallFlow/zxWaterFallFlow-Prefix.pch";
+				INFOPLIST_FILE = "zxWaterFallFlow/zxWaterFallFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FBCE732B1A92F399009490A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zxWaterFallFlow.app/zxWaterFallFlow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zxWaterFallFlow/zxWaterFallFlow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "zxWaterFallFlowTests/zxWaterFallFlowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FBCE732C1A92F399009490A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zxWaterFallFlow.app/zxWaterFallFlow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zxWaterFallFlow/zxWaterFallFlow-Prefix.pch";
+				INFOPLIST_FILE = "zxWaterFallFlowTests/zxWaterFallFlowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBCE72F01A92F399009490A0 /* Build configuration list for PBXProject "zxWaterFallFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCE73251A92F399009490A0 /* Debug */,
+				FBCE73261A92F399009490A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCE73271A92F399009490A0 /* Build configuration list for PBXNativeTarget "zxWaterFallFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCE73281A92F399009490A0 /* Debug */,
+				FBCE73291A92F399009490A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCE732A1A92F399009490A0 /* Build configuration list for PBXNativeTarget "zxWaterFallFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCE732B1A92F399009490A0 /* Debug */,
+				FBCE732C1A92F399009490A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBCE72ED1A92F399009490A0 /* Project object */;
+}
